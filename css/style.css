@@ -1,0 +1,78 @@
+@import "./reset.css";
+
+.fundo-bg {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  background-color: #00acd8;
+}
+
+.principal {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.area-jogo {
+  width: 900px;
+  height: 400px;
+  margin: 20px 0 0 0;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.area-jogo-apresentacao h1 {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 12px;
+}
+
+.area-jogo-apresentacao p {
+  text-align: justify;
+  padding: 0 20px;
+}
+
+.form-jogo input {
+  width: 300px;
+  padding: 5px;
+}
+
+.form-jogo button {
+  padding: 7px;
+  border-radius: 4px;
+  background: #0686d8;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.resultados {
+  display: none;
+}
+
+.resultados.ativo {
+  margin: 20px 30px 0 30px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.resultado.certo {
+  background-color: green;
+  font-size: 20px;
+  color: white;
+}
+
+.resultado.errado {
+  background-color: red;
+  font-size: 20px;
+  color: white;
+}
